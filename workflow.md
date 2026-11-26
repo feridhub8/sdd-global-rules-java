@@ -12,3 +12,5 @@
 - A project with several repos keeps them side by side in one local folder named after the project (for example `~/Desktop/XBank/`).
 - A central `<project>-specs` repo in that folder holds OpenSpec for the whole project: specs, changes, and `config.yaml` for every repo.
 - Code repos hold code only. Changes are proposed and archived in `<project>-specs`; `apply` writes code into the target repo.
+- After `apply`, I review the code repo's changes; after my approval it is committed (see [git.md](git.md)).
+- `<project>-specs` is committed only once per change, after `archive`. Propose, apply, and archive edits to it stay uncommitted until then.
