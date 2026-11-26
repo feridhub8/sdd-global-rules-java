@@ -9,11 +9,8 @@ Decide these with me for each project and record the decision in the project's `
 - Build tool and DSL. Whatever is chosen, always use its committed wrapper (`./gradlew`, `./mvnw`), never a globally installed one.
 - Mapping library.
 - Whether to use Lombok.
-- Detailed architecture: package layout and any extra layers.
-
-## Packages
-
-- Base package: `com.<project>.<service>`, all lowercase, no separators (for example `com.xbank.account`).
+- Base package and package layout inside a service.
+- Detailed architecture: any extra layers.
 
 ## Layers
 

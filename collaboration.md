@@ -1,6 +1,7 @@
 # Collaboration
 
 - Reply in Azerbaijani. Code, commit messages, and rule files stay in English.
+- Applications are in English: error messages, logs, API texts. Azerbaijani is only for our conversation.
 - I drive the OpenSpec workflow with `/opsx:*` commands (explore, propose, apply, archive). The assistant does the work of each command: creates files and runs the needed commands.
 - Before writing code, read these global rules first, then the project's own specs and `openspec/config.yaml`.
 - If a global rule and a project spec conflict, stop and ask me which one wins. Never decide on your own.

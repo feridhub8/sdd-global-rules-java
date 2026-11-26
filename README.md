@@ -9,6 +9,7 @@ Rules that apply to all of my Java projects. Every AI assistant session must rea
 | [git.md](git.md) | Commits, branches, pushes, ignored files |
 | [java.md](java.md) | Java stack, build, code style |
 | [microservices.md](microservices.md) | Service structure and naming for microservice projects |
+| [testing.md](testing.md) | Automated tests, written with each feature |
 | [graphify.md](graphify.md) | When and how to use Graphify |
 
 Project-specific constraints go in that project's `openspec/config.yaml`, not here.
