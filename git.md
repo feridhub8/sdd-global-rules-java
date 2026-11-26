@@ -10,6 +10,8 @@ Every commit and push goes through three separate approvals, in this order:
 
 An approval covers only that one commit or push.
 
+If I say "commit and push" (in any form), step 2 still applies: propose the message and wait for my approval. After committing, push right away without asking again (step 3 is already approved).
+
 ## Rules
 
 - Every repo is a git repo from the start (`git init` before `openspec init`).
