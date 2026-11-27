@@ -16,6 +16,10 @@ Decide these with me for each project and record the decision in the project's `
 
 - The default flow is Controller → Service → Repository. No mediator, no CQRS libraries.
 
+## API docs
+
+- Every HTTP service exposes OpenAPI docs with springdoc (`/v3/api-docs`, `/swagger-ui.html`) in non-production environments only; production turns both off. Each endpoint documents its purpose and its possible responses, including error responses.
+
 ## Code style
 
 - DTOs are regular classes, not Java records.
