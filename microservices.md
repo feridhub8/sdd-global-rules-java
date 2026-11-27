@@ -18,7 +18,7 @@ Decide these with me for each project and record the decision in the project's `
 - One GitHub repository per service.
 - Each microservice is `<project>-ms-<name>`, with `<name>` in lowercase kebab-case. Never `<name>-service`.
 - `<project>-api-gateway` is the single entry point for clients.
-- `<project>-infrastructure` holds the Docker setup of infrastructure tools and nothing else.
+- `<project>-infrastructure` holds the Docker setup of infrastructure tools and nothing else, except tests for that setup: a `tests/` folder whose tests run as a container with docker compose.
 - `<project>-specs` holds OpenSpec for all repos (see [workflow.md](workflow.md)).
 
 ## Infrastructure
