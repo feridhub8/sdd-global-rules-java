@@ -5,6 +5,7 @@
 - Flow: explore (think it through) → propose (proposal, specs, design, tasks) → apply (implement) → archive (merge into specs).
 - On archive, always sync the change's delta specs into the main specs; do not ask whether to sync. Stop and ask only when a capability cannot be synced (for example, a MODIFIED requirement with no main spec).
 - Keep each change small: one service or one feature per proposal.
+- Change names start with a three-digit sequence number in creation order, counted across the whole project: `001-<name>`, `002-<name>`. On archive the number stays after the date: `YYYY-MM-DD-NNN-<name>`, so archives sort in the order the work was done. Capabilities in `openspec/specs/` are not numbered.
 - Constraints the assistant cannot infer from the code (naming, stack, repo layout, database decisions, scope) go in the project's `openspec/config.yaml` under `context`.
 
 ## Multi-repo projects
